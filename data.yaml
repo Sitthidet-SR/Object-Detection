@@ -1,0 +1,14 @@
+# Dataset config for YOLO (ultralytics) - 5 stationery classes
+# Folder layout (see README_TH.md):
+#   dataset/images/train  dataset/labels/train
+#   dataset/images/val    dataset/labels/val
+path: dataset          # relative to this project folder
+train: images/train
+val: images/val
+
+names:
+  0: Pen
+  1: Pencil
+  2: Eraser
+  3: Ruler
+  4: Scissors
